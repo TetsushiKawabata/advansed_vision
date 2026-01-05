@@ -6,14 +6,14 @@
 - 学習をした結果、train accuracyが0.882、test accuracyは0.886を記録しました。
 
 ## 実装
-- このパッケージのコードは、以下のリポジトリを基に作成しています。
-    - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
+このパッケージのコードは、以下のリポジトリを基に作成しています。
+- [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
 
-- 必要なソフトウェア
-    - 本リポジトリでは以下のソフトウェアを必要とするため、使用する際は事前のインストールをお願いいたします。
-        - Python 3.x
-        - NumPy
-        - Matplotlib
+### 必要なソフトウェア
+- 本リポジトリでは以下のソフトウェアを必要とするため、使用する際は事前のインストールをお願いいたします。
+    - Python 3.x
+    - NumPy
+    - Matplotlib
 
 - インストール方法
 ```
@@ -25,6 +25,6 @@ $ cd advansed_vision
 
 
 ## 既存からの変更点
-- 既存のリポジトリと本リポジトリの変更点は以下のようになっている。
+- 既存のリポジトリと本リポジトリの変更点は以下のようになっています。
     - 変更前 : 隠れ層が1個のニューラルネットワーク
     - 変更後 : 隠れ層が2個のニューラルネットワーク
