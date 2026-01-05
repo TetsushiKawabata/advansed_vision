@@ -15,16 +15,24 @@
     - NumPy
     - Matplotlib
 
-- インストール方法
+### インストール方法
 ```
 $ git clone https://github.com/TetsushiKawabata/advansed_vision.git
 $ cd advansed_vision
 ```
 
-- 実行方法
+### 実行方法と実行結果
 
 
-## 既存からの変更点
+## 既存リポジトリからの変更点
 - 既存のリポジトリと本リポジトリの変更点は以下のようになっています。
     - 変更前 : 隠れ層が1個のニューラルネットワーク
     - 変更後 : 隠れ層が2個のニューラルネットワーク
+
+## 理論
+
+
+## ライセンス
+- 本リポジトリは、MITライセンスの下、公開されています。
+- このパッケージのコードは、以下のリポジトリ (MIT License) を基に作成しています。
+    - [deep-learning-from-scratch](https://github.com/oreilly-japan/deep-learning-from-scratch)
