@@ -1,9 +1,8 @@
-# advansed_vision
+# advanced_vision
 本リポジトリは、アドバンスドビジョンの講義の課題として作成したものです。
 
 ## 概要
 - 多層パーセプトロンによるニューラルネットワークを用いて、MNIST (手書き数字の画像データセット)の分類をおこなっています。
-- 
 - 学習をした結果、train accuracyが0.882、test accuracyは0.886を記録しました。
 
 ## 実装
@@ -21,7 +20,7 @@
     - NumPy
     - Matplotlib
 
-### インストール方法
+### 本リポジトリのインストール方法
 ```
 $ git clone https://github.com/TetsushiKawabata/advansed_vision.git
 $ cd advansed_vision
@@ -40,6 +39,12 @@ train acc, test acc | 0.11236666666666667, 0.1135
 ![学習曲線](./result.png)
 
 ## 理論
+### モデルの構造
+- 入力
+    - 
+
+### 損失関数
+
 
 ## ライセンス
 - 本リポジトリは、MITライセンスの下、公開されています。
