@@ -47,6 +47,8 @@ train acc, test acc | 0.11236666666666667, 0.1135
 第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。
 ```math
 \mathbf{a}^{(1)} = \mathbf{x}\mathbf{W}^{(1)} + \mathbf{b}^{(1)}
+```
+```math
 \mathbf{z}^{(1)} = \mathrm{sigmoid}\left(\mathbf{a}^{(1)}\right)
 ```
 
@@ -61,6 +63,8 @@ train acc, test acc | 0.11236666666666667, 0.1135
 第二層も第一層と同様に、全結合層であり活性化関数にはシグモイド関数を使用しています。
 ```math
 \mathbf{a}^{(2)} = \mathbf{x}\mathbf{W}^{(2)} + \mathbf{b}^{(2)}
+```
+```math
 \mathbf{z}^{(2)} = \mathrm{sigmoid}\left(\mathbf{a}^{(2)}\right)
 ```
 
