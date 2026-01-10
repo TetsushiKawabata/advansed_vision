@@ -42,7 +42,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 ### モデルの構造
 モデルの構造図は以下のようになっています。
 
-<img src="./img/model.png" width="50%">
+<img src="./img/model.png" width="25%">
 
 #### 入力
 784次元の画像データ(MNISTの手書き数字)
