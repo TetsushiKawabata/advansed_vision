@@ -79,7 +79,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 \mathbf{y} = \mathrm{softmax}\left(\mathbf{a}^{(3)}\right)
 ```
 
-ソフトマックスの式は、以下のようになっています。
+ソフトマックス関数の式は、以下のようになっています。
 ```math
 \mathrm{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_k}}
 ```
@@ -88,6 +88,10 @@ train acc, test acc | 0.11236666666666667, 0.1135
 1～9の各数字の確率が算出されます。
 
 ### 損失関数
+損失関数には、交差エントロピー誤差を使用しています。
+```math
+\mathrm{L}(\mathbf{y}, \mathbf{t}) = - \sum_{k=1}^{K} t_k \log y_k
+```
 
 
 ## ライセンス
