@@ -46,7 +46,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 784次元の画像データ(MNISTの手書き数字)
 
 #### 第一層 (隠れ層)
-第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。この際、`\mathbf{a}^{(i)} `は`\mathbf{i} `層目の重みを指し、
+第一層は、全結合層であり活性化関数にはシグモイド関数を使用しています。この際、 $\mathbf{a}^{(i)}$ は $\mathbf{i}$ 層目の重みを指し、
 ```math
 \mathbf{a}^{(1)} = \mathbf{x}\mathbf{W}^{(1)} + \mathbf{b}^{(1)}
 ```
@@ -54,7 +54,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 \mathbf{z}^{(1)} = \mathrm{sigmoid}\left(\mathbf{a}^{(1)}\right)
 ```
 
-シグモイド関数の式は以下のようになっています。
+シグモイド関数の式は、以下のようになっています。
 ```math
 \mathrm{sigmoid}(x) = \frac{1}{1 + e^{-x}}
 ```
@@ -77,7 +77,7 @@ train acc, test acc | 0.11236666666666667, 0.1135
 \mathbf{y} = \mathrm{softmax}\left(\mathbf{a}^{(3)}\right)
 ```
 
-ソフトマックスの式は $\mathrm{softmax}(x)$ 以下のようになっています。
+ソフトマックスの式は、以下のようになっています。
 ```math
 \mathrm{softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_k}}
 ```
